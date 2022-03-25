@@ -1,0 +1,199 @@
+header{display:block;}
+button,select{font-family:inherit;font-size:100%;margin:0;}
+button{line-height:normal;}
+button,select{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner{border:0;padding:0;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+button,.button{-webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-ms-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out;}
+::-moz-selection{background-color:#000;color:#fff;}
+::selection{background-color:#000;color:#fff;}
+p{margin:0 0 25px;padding:0;}
+select{background-color:#fff;border-radius:3px;border:1px solid #ddd;box-shadow:none;font-size:15px;font-weight:300;padding:5px;width:100%;}
+::-moz-placeholder{color:#444;opacity:1;font-weight:300;}
+::-webkit-input-placeholder{color:#444;font-weight:300;}
+button,.button{background-color:#78a7c8;border-radius:3px;border:none;color:#fff;cursor:pointer;font-size:16px;font-weight:300;padding:14px 30px;text-transform:uppercase;white-space:normal;width:auto;}
+button:hover,.button:hover{background-color:#e44a3c;color:#fff;}
+.entry-content .button,.entry-content .button:hover{color:#fff;}
+.button{display:inline-block;}
+.site-container button:disabled,.site-container button:disabled:hover{background-color:#ddd;border-width:0;color:#777;cursor:not-allowed;}
+.entry-content p{color:#647585;}
+.education-pro-green .button:hover,.education-pro-green button:hover{background-color:#07b;}
+.education-pro-green .button,.education-pro-green button{background-color:#07b;}
+.result_main_content,.result_row_main,.result_title{font-weight:400}
+.success_result{background:#08b!important;}
+.primary_result{background:#eace09!important;color:#000!important}
+.danger_result{background:#f00!important;color:#fff!important}
+.d_lg_none{display:none}
+.result_container{width:100%;margin:0 auto}
+.result_wrapper{padding:0 1px}
+.result_row_main{display:-webkit-flex;display:flex}
+.result_column_1{width:70%;padding-right:15px}
+.result_column_2{width:30%}
+.result_column_degree_1{width:50%;padding-right:15px}
+.result_column_degree_2{width:50%}
+.select_box{padding:10px;border:1px solid #000;box-shadow:0 5px 6px -4px #ddd}
+.result_container .title{font-size:16px;font-weight:500;color:#363636;padding-bottom:8px;text-align:center}
+.grede_format_box{width:100%;padding:10px 10px 10px 15px;border:1px solid #000;box-shadow:0 5px 6px -4px #ddd}
+.result_title, .select_box, .grede_format_box, .result_main_content, .total_result{border-radius:6px;}
+.button_main_group{width:100%;border:2px solid #ddd;border-radius:50px;display:flex}
+.result_container button.button_group{border:none;padding:5px 0;width:33.5%;font-size:14px;border-radius:50px;background:0 0;margin:0;color:#111;font-weight:400;box-shadow:none!important}
+.result_container button.button_group:hover{color:#333;background:#08b}
+.result_container button.active{background:#07b;border:none;outline:0;color:#fff}
+.result_container button.button_group:active{background:#08b;border:none;outline:0;color:#fff}
+.button_main{width:100%;border:2px solid #ddd;border-radius:50px}
+.result_container button.button{border:none;padding:5px 0;width:50%;font-size:14px;font-weight:400;border-radius:50px;background:0 0;color:#111;box-shadow:none!important;margin:0!important}
+.result_container button.button:hover{color:#333;background:#08b}
+.result_container button.button:active{background:#08b;border:none;outline:0;color:#fff}
+.result_container button.current{background:#07b;border:none;outline:0;color:#fff}
+.button_main{display:flex}
+.result_title{font-size:36px;color:#fff!important;padding:15px;background:#07b;margin-bottom:15px;text-align:center;text-transform:capitalize;font-weight:700;}
+.result_main_content{width:100%;padding:10px;border:1px solid #000;margin:20px 0 15px}
+.main_result_wrapper{width:100%;display:flex;align-items:center;margin:5px 0;padding:5px}
+.result_sub_code{width:10%;display:flex;justify-content:center;align-items:center}
+.result_sub_code p.code{color:#333;font-size:16px!important;margin:0!important;padding:0;font-weight:400}
+.result_sub_grade{display:flex;width:90%;align-items:center}
+.result_sub_grade_degree{display:flex;width:100%;align-items:center}
+.result_subject{width:60%;margin:0 10px 0 0}
+.result_subject p.subject{color:#333;font-size:15px;margin:0!important;display:block;background:#f5f5f5;padding:0 10px;width:100%;}
+.result_grade p.grade_point{color:#333;font-size:16px}
+.result_grade{width:40%;display:flex}
+.select_sub{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;outline:0;box-shadow:none;border:0!important;background:#f5f5f5;background-image:none}
+.select_main{position:relative;display:block;line-height:2;background:#f5f5f5;overflow:hidden;border-radius:.25em;width:100%}
+.select_sub{width:100%;margin:0;padding:0 0 0 .5em;color:#333;cursor:pointer}
+.select_sub::-ms-expand{display:none}
+.select_main::after{content:"\25bc";position:absolute;top:0;right:0;bottom:0;padding:0 1em;background:#efefef;pointer-events:none;color:#555}
+.select_main:hover::after{color:#999}
+.select_main::after{-webkit-transition:.25s all ease;-o-transition:.25s all ease;transition:.25s all ease}
+.result_title_subject{width:100%;display:flex;padding:8px 0}
+.code_title{width:10%;color:#333;font-size:16px;font-weight:500;text-align:center}
+.subject_title{width:53%;font-size:16px;font-weight:500;color:#333;padding:0 16px}
+.point_title{width:27%;font-size:16px;font-weight:500;color:#333;padding:0 20px}
+.point_titles{width:27%;font-size:16px;font-weight:500;color:#333;padding:0 8px}
+.view_result_button{text-align:center;padding:10px 0}
+.result_button{border:none;background:#08b;font-size:17px;font-weight:bold;color:#fff;text-transform:capitalize;box-shadow:0 5px 12px -4px #444;border-radius:50px;padding:10px 30px;cursor:pointer;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.result_button:hover{background:#08b;color:#fff;box-shadow:0 5px 15px -2px #222}
+.result_input_control{width:100%;border:1px solid #b1b1b1;border-radius:4px;padding:4px 5px!important;background:0 0}
+.total_result{display:flex;width:100%;justify-content:center;border:1px solid #000;padding:10px;margin-bottom:15px}
+.total_result .total_point{display:flex;align-items:center;justify-content:center;width:140px;height:140px;margin:0!important;border-radius:70px;background:red;color:#fff;padding:10px;box-shadow:0 4px 8px -3px #000000b3}
+.total_result .title{margin:0!important;padding:0 0 10px;outline:0;font-size:18px;font-weight:400;color:#fff;text-align:center;text-transform:capitalize}
+.total_result .grade,.total_result .point{margin:0!important;padding:0!important;font-size:40px!important;text-align:center;line-height:30px!important;font-weight:600;color:#fff}
+.total_result .total_grade{display:flex;align-items:center;justify-content:center;width:140px;height:140px;margin:0;border-radius:70px;background:green;color:#fff;padding:10px;margin-right:20px;box-shadow:0 4px 8px -3px #000000b3}
+.total{line-height:25px}
+.jsc{justify-content:center}
+.result_column{width:50%}
+.subject_name_title{display:flex;flex:1}
+.paper{display:flex;flex:1;justify-content:center}
+.grade_point{display:flex;flex:1}
+.subject_name{width:45%}
+.paper_name{width:33.33%}
+.grade_point_main{width:33.33%}
+.paper_ul{margin:0!important;padding:0;text-align:center}
+.paper_ul .first_paper_1{border-bottom:1px solid #fff}
+.paper_ul .first_paper_1,.paper_ul .second_paper_2{list-style:none;font-size:14px;padding:6px 0}
+.grade_and_paper_main{width:55%;display:flex}
+.paper_name_main{flex:1}
+.grade_point_main_result{display:flex;flex:1;justify-items:center;flex-direction:column;justify-content:center}
+.select_grades:first-child{border-bottom:1px solid #fff}
+.degree_result_control{padding:2px 5px!important;margin:4px 0!important}
+.degree_select_main{margin:3px 0!important}
+.compulsory_subject{width:74%}
+.grade_point_compulsory{width:28%}
+.grede_format_box sup{text-transform:capitalize}
+@media only screen and (min-width:669px) and (max-width:993px) {
+.result_container{width:95%;margin:0 auto}
+}
+@media only screen and (max-width:668px) {
+.result_column_degree_1{width:100%;padding:0;padding-bottom:10px}
+.result_column_degree_2{width:100%}
+.result_sub_grade_degree{width:100%!important}
+.grade_point_main_result{flex:2!important}
+.compulsory_subject{width:100%}
+.grade_point_compulsory{width:100%}
+.subject_name{width:100%}
+.grade_and_paper_main{width:100%;display:flex}
+.select_main{line-height:2.5}
+.result_main_content{padding:4px}
+.code_title{font-size:14px;text-align:left;padding-left:15px}
+.result_container .title{font-size:14px}
+.d_sm_none{display:none}
+.d_sm_block{display:block;width:100%;text-align:center}
+.result_container{width:100%;margin:0 auto}
+.result_title{font-size:22px!important}
+.result_row_main{display:-webkit-flex;display:flex;flex-direction:column}
+.result_column_1{width:100%;padding-right:0;padding-bottom:10px}
+.result_main_content{margin:10px 0 15px}
+.result_column_2{width:100%;padding-left:0}
+.result_sub_grade{display:flex;width:80%;align-items:center;flex-direction:column}
+#result_subject{padding-right:0}
+.result_sub_code{width:15%}
+.result_sub_grade{display:flex;width:85%;align-items:center;flex-direction:column}
+.result_subject{width:100%;padding-bottom:5px;margin:0}
+.result_grade{width:100%}
+.result_sub_code p.code{color:#333;font-size:14px}
+.result_subject p.subject{padding:8px}
+.code_title{width:30%}
+#grade_point .select{font-size:14px!important}
+#grade_point .select-options li{font-size:14px!important}
+#result_subject .select_subject{font-size:14px!important}
+#result_subject .select-options_subject li{font-size:14px!important}
+.result_container button.button_group{font-size:12px;font-weight:400}
+.result_container button.button{font-size:12px}
+.subject_title{font-size:14px}
+.point_titles{font-size:14px}
+.result_column{width:100%}
+}
+::placeholder{color:#888;opacity:1}
+:-ms-input-placeholder{color:#888}
+::-ms-input-placeholder{color:#888}
+.gpa-calculator__container *{margin:0;padding:0;box-sizing:border-box}
+.gpa-calculator__container ul{margin:0;padding:0;list-style:none}
+.gpa-calculator__container{max-width:960px;width:100%;margin:0 auto}
+.gpa-calculator__container .gpa-calculator__wrapper{padding:10px;box-shadow:0 .25em 1em rgba(7,29,63,.125)}
+.gpa-calculator__container .gpa-calculator__main-ul{display:flex;flex-direction:column}
+.gpa-calculator__container .gpa-calculator__main-li{margin-bottom:10px;border-bottom:1px solid #eaeaea;padding-bottom:10px;list-style-type:none!important}
+.gpa-calculator__container .gpa-calculator__heading{display:flex;padding:10px;justify-content:space-between;align-items:center}
+.gpa-calculator__container .gpa-calculator__header-text{font-size:28px;font-weight:700;color:#4a4a4acc}
+.gpa-calculator__container .gpa-calculator__remove-all{width:25px;height:25px;margin:0;padding:0;outline:0;border:1px solid #4a5b7d;border-radius:50%;color:#e0e2e6;font-size:1.3125rem;line-height:1;font-weight:400;cursor:pointer;background-color:transparent;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gIDxwYXRoIGQ9Ik0xIDFsNCA0IDQtNE0xIDlsNC00IDQgNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMEQyNDUxIi8+PC9zdmc+);background-repeat:no-repeat;background-position:center center;transition:all .3s cubic-bezier(.16,.68,.43,.99)}
+.gpa-calculator__container .gpa-calculator__remove-all:hover{border-color:red;background-color:transparent}
+.gpa-calculator__container .active-hover{border-color:red!important;box-shadow:0 5px 12px -5px #0d2451!important}
+.gpa-calculator__remove-item:hover{border-color:red!important;background-color:#fff!important}
+.gpa-calculator__container .gpa-calculator__course-ul{margin:0;padding:10px;width:100%}
+.gpa-calculator__container .gpa-calculator__course-li{width:100%;display:flex;margin:0;align-items:center}
+.gpa-calculator__container .gpa-calculator__input{height:50px;flex:0 1 auto;margin:0;padding:5px 10px;outline:0;color:#575757!important;background-color:transparent!important;border:none;border-radius:0;border-bottom:1px solid #e0e2e6!important;border-left:1px solid #e0e2e6!important;font-size:16px;font-weight:400}
+.gpa-calculator__container .gpa-calculator__course-name{flex:0 1 350px}
+.gpa-calculator__container .gpa-calculator__course-li:first-child .gpa-calculator__course-name{border-top:1px solid #e0e2e6!important;border-top-left-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__course-li:last-child .gpa-calculator__course-name{border-bottom:1px solid #e0e2e6!important;border-bottom-left-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__credits{border-right:1px solid #e0e2e6!important;-moz-appearance:textfield!important}
+.gpa-calculator__container .gpa-calculator__credits:focus,.gpa-calculator__container .gpa-calculator__credits:hover{border-right:1px solid #e0e2e6!important;-moz-appearance:textfield!important}
+.gpa-calculator__container .gpa-calculator__course-li:first-child .gpa-calculator__credits{border-top:1px solid #e0e2e6!important;border-top-right-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__course-li:last-child .gpa-calculator__credits{border-bottom:1px solid #e0e2e6!important;border-bottom-right-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__grate{height:50px;flex:0 0 calc(33.33333% - 5rem);width:calc(33.33333% - 5rem);max-width:calc(33.33333% - 5rem);margin:0;padding:5px 10px;outline:0;color:#848d9c!important;font-size:16px;font-weight:400;background-color:transparent!important;border:none;border-width:0 0 1px 1px;border-style:solid;border-color:#e0e2e6!important;border-radius:0;-webkit-appearance:none;-moz-appearance:none;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI2cHgiIHZpZXdCb3g9IjAgMCAxMCA2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPiAgICAgICAgPHRpdGxlPkFydGJvYXJkIDM8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+PC9kZWZzPiAgICA8ZyBpZD0iQXJ0Ym9hcmQtMyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+ICAgICAgICA8cG9seWxpbmUgaWQ9IlBhdGgtMi1Db3B5LTIiIHN0cm9rZT0iIzg0OEQ5QyIgcG9pbnRzPSIxIDEgNSA1IDkgMSI+PC9wb2x5bGluZT4gICAgPC9nPjwvc3ZnPg==);background-repeat:no-repeat;background-position:right .75rem center}
+.gpa-calculator__container .gpa-calculator__semester-cgpa{font-weight:700!important;color:#3a3a3a}
+.gpa-calculator__container .gpa-calculator__course-li:first-child .gpa-calculator__grate{border-top:1px solid #e0e2e6}
+.gpa-calculator__container .gpa-calculator__credits{width:100%}
+.gpa-calculator__container .gpa-calculator__remove-item{margin:0;margin-left:10px;padding:12px;outline:0;border:1px solid #b9b9b9;border-radius:50%;color:#e0e2e6;font-size:1.3125rem;line-height:1;font-weight:400;cursor:pointer!important;background-color:transparent;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gIDxwYXRoIGQ9Ik0xIDFsNCA0IDQtNE0xIDlsNC00IDQgNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODQ4RDlDIi8+PC9zdmc+);background-repeat:no-repeat;background-position:center center;transition:all .3s cubic-bezier(.16,.68,.43,.99);box-shadow:none!important}
+.gpa-calculator__container .gpa-calculator__add-course-semester{display:flex;align-items:center;padding:10px}
+.gpa-calculator__container .gpa-calculator__semester-result{font-size:22px;color:#000;font-weight:400}
+.gpa-calculator__container .gpa-calculator__semester-result>span{font-size:20px;font-weight:400;color:#575757}
+.cgpa-calculator__result{font-weight:700!important}
+.gpa-calculator__container .gpa-calculator__add-course{padding-left:10px}
+.gpa-calculator__container .gpa-calculator__add-course__button{font-size:16px;font-weight:400;display:inline-block;padding:5px 30px;background:0 0;color:#e68a00;border:1px solid #e68a00;border-radius:50px!important;box-shadow:0 5px 12px -5px rgba(5,8,12,.589)!important;margin-top:10px;margin-bottom:10px;margin-left:10px}
+.gpa-calculator__container .gpa-calculator__add-course__button:hover{background:0 0;color:#158a67!important;border:1px solid #158a67;box-shadow:0 5px 18px -5px rgba(2,16,34,.815)!important}
+.gpa-calculator__container .gpa-calculator__add-semester{display:flex;justify-content:space-between;padding:10px;align-items:center}
+.gpa-calculator__container .gpa-calculator__add-semester__button{font-size:16px;font-weight:400;display:inline-block;padding:5px 30px;background:0 0;color:#e68a00;border:1px solid #e68a00;border-radius:50px!important;box-shadow:0 5px 12px -5px rgba(5,8,12,.589)!important;margin-right:10px}
+.gpa-calculator__container .gpa-calculator__add-semester__button:hover{background:0 0;color:#158a67!important;border:1px solid #158a67;box-shadow:0 5px 18px -5px rgba(2,16,34,.815)!important}
+@media only screen and (max-width:669px) {
+.gpa-calculator__container .gpa-calculator__course-li{flex-wrap:wrap;margin-bottom:5px}
+.gpa-calculator__container .gpa-calculator__course-li:first-child .gpa-calculator__course-name{border-bottom-left-radius:0!important;border-top-right-radius:5px!important;border-bottom:0!important}
+.gpa-calculator__container .gpa-calculator__course-name{flex:0 1 calc(100% - 3rem)!important;width:calc(100% - 3rem);max-width:calc(100% - 3rem);border-right:1px solid #e0e2e6!important;border-bottom:1px solid #e0e2e6!important;border-top-left-radius:5px!important;border-top-right-radius:5px!important;border-top:1px solid #e0e2e6!important}
+.gpa-calculator__container .gpa-calculator__course-li:last-child .gpa-calculator__course-name{border-right:1px solid #e0e2e6!important;border-bottom-left-radius:0!important;border-top-right-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__credits{flex:0 0 calc(50% - 1rem)!important;width:calc(50% - 1rem);max-width:calc(50% - 1rem);border-top-right-radius:0!important;border-bottom-right-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__grate{flex:0 0 calc(50% - 2rem);width:calc(50% - 2rem);max-width:calc(50% - 2rem);border-bottom-left-radius:5px!important}
+.gpa-calculator__container .gpa-calculator__remove-item{margin-top:-50px;margin-left:10px}
+.gpa-calculator__container .gpa-calculator__add-semester{flex-wrap:wrap;justify-content:center}
+.gpa-calculator__container .gpa-calculator__add-course-semester{flex-wrap:wrap;justify-content:center}
+.gpa-calculator__container .gpa-calculator__remove-all{margin-right:12px}
+}
+.gpa-calculator__container .gpa-calculator__add-course__button{margin-right:30px}
+.gpa-calculator__container .gpa-calculator__add-semester__button{margin-bottom:10px}
